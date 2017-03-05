@@ -49,5 +49,7 @@ def appendFile (file1, f1cols, file2, f2cols, combined):
     print "done combining"
 
 
+
+
 appendFile("salaries-2013-14.xls",5, "salaries-2014-15.xls", 5, "combined.xls")
 appendFile("combined.xls", 7, "salary1516.xls", 6, "salaries_combined.xls")
